@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp 
+    spec="1.0+" 
+    codebase="https://github.com/ttimer/tea-timer/blob/master"
+    href="aTeaTimer4U.jnlp">
+  <information>
+    <title>a Tea Timer 4 U</title>  
+    <vendor>www.ABAP-Developer.de.vu</vendor>
+    <homepage href="http://smolka.lima-city.de/" /> 
+    <description>tea-timer 4 u</description> 
+    <icon kind="default" href="Tea-Timer.gif"/>
+    <offline-allowed/>
+    <shortcut online="false" install="true">
+      <desktop/>
+      <menu submenu="a-Tea-Timer-4-U"/>
+    </shortcut>
+  </information>
+  <security>
+    <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.6+"/> 
+    <jar href="aTeaTimer4U.jar" main="true" version="1.30"/>
+    <property name="jnlp.versionEnabled" value="true"/>
+  </resources>
+  <update check="background"/>
+  <application-desc main-class="aTeaTimer4U"/>
+</jnlp>
